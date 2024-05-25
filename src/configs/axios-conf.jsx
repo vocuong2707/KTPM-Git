@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: 'https://server-zelo.onrender.com',
+  baseURL: 'https://server-zelo.onrender.com/',
   timeout: 1000,
   headers: {
     "Content-Type": "application/json",
